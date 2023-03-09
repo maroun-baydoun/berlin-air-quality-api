@@ -1,0 +1,20 @@
+{
+  "name": "berlin-air-quality-api",
+  "version": "1.0.0",
+  "description": "",
+  "private": "true",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "format": "prettier . --write",
+    "fetch": "node ./src/fetch.js"
+  },
+  "author": "maroun.baydoun@gmail.com",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 18"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.4"
+  }
+}
