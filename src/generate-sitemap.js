@@ -7,7 +7,8 @@ const normaliseStationName = (stationName) => {
   return stationName
     .replace(/[0-9]*/g, "")
     .trim()
-    .replace(/\s+/g, "-");
+    .replace(/\s+/g, "-")
+    .toLowerCase();
 };
 const normaliseStationCode = (stationCode) => {
   return stationCode.toLowerCase();
